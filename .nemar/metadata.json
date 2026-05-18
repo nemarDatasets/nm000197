@@ -1,0 +1,92 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Boyla Mainsah": {},
+    "Chance Fleeting": {
+      "orcid": "0000-0002-6271-4952",
+      "affiliations": [
+        {
+          "name": "Duke University"
+        }
+      ]
+    },
+    "Thomas Balmat": {},
+    "Eric Sellers": {},
+    "Leslie Collins": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.13026/0byy-ry86",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000197",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000197",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "BigP3BCI Study M — 9x8 adaptive/checkerboard (21 ALS subjects)",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "506.3 MB (421 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "BigP3BCI Study M is a derivative EEG dataset containing P300-based brain-computer interface recordings from 21 ALS subjects using a 9x8 adaptive/checkerboard visual speller paradigm. This dataset is part of the BigP3BCI project, the largest public P300 BCI dataset, and includes 16-channel EEG recordings sampled at 256 Hz with target and non-target event classifications for BCI speller applications.",
+  "methods_description": "EEG data were acquired using a g.USBamp amplifier (g.tec) with 16 channels arranged in a standard 10-20 montage at a sampling rate of 256 Hz with 60 Hz line frequency filtering. Subjects performed a visual P300 speller task using a 9x8 character grid with adaptive/checkerboard stimulus presentation. Each trial consisted of a 1-second epoch with target and non-target event classifications.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "visual speller"
+    },
+    {
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+    },
+    {
+      "term": "Amyotrophic Lateral Sclerosis",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000690"
+    }
+  ],
+  "source_hash": "42a9fb26720a41c249b97a307fe2bf338da3b9c4ad0728e2b7d5f5674ce588a8"
+}
