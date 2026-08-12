@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BigP3BCI Study M — 9x8 adaptive/checkerboard (21 ALS subjects)",
-  "description": "BigP3BCI Study M is a derivative EEG dataset containing P300-based brain-computer interface recordings from 21 ALS subjects using a 9x8 adaptive/checkerboard visual stimulus paradigm. This dataset is part of the BigP3BCI project, the largest public P300 BCI dataset, and includes preprocessed EEG data acquired at 256 Hz from 16 channels using standard 10-20 electrode montage. The data supports P300 event-related potential detection and speller BCI applications with target and non-target stimulus classifications.",
-  "methods_description": "EEG data were acquired at 256 Hz sampling rate using 16 channels in standard 10-20 montage with g.USBamp hardware (g.tec). The experimental paradigm employed a 9x8 character grid with adaptive/checkerboard visual stimulus presentation. Data were collected in a laboratory setting with online feedback. Each subject completed one session with target and non-target visual stimuli presented in a calibration-then-test cross-validation design.",
+  "description": "This derivative dataset comprises EEG recordings from 21 ALS subjects participating in the BigP3BCI Study M, a P300-based brain-computer interface experiment using a 9x8 adaptive/checkerboard visual speller paradigm. The data were acquired at 256 Hz using 16-channel EEG montage and processed through the MOABB framework. This subset represents part of the largest public P300 BCI dataset, enabling benchmarking and validation of P300 detection algorithms for assistive communication applications.",
+  "methods_description": "EEG data were acquired at 256 Hz sampling rate using 16 channels in a standard 1020 montage with g.USBamp hardware (g.tec). The experimental paradigm employed a 9x8 character grid with adaptive/checkerboard stimulus presentation. Subjects performed a single session with target and non-target visual stimuli presented at a 60 Hz line frequency. HED 8.4.0 event annotations were applied to classify visual sensory events as target or non-target stimuli.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -28,20 +28,10 @@
       "term": "P300"
     },
     {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+      "term": "brain-computer interface"
     },
     {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
-    },
-    {
-      "term": "Visual Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
+      "term": "visual evoked potentials"
     },
     {
       "term": "speller paradigm"
@@ -64,11 +54,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000197",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
       "relation_type": "References"
@@ -77,6 +62,11 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000197",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -85,15 +75,16 @@
     "eeg"
   ],
   "sizes": [
-    "506.3 MB (421 files)"
+    "2.5 GB (841 files)"
   ],
   "formats": [
     ".bdf",
+    ".edf",
     ".json",
     ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "079d02ba0c0d012877d74ddc5d8f6918e8682bf28899636618297eb7d1745725"
+  "source_hash": "211f90d44547a356beee82eaea9bd02a340bb69206d9183acb5cceebbb31ffc8"
 }
