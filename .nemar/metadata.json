@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BigP3BCI Study M — 9x8 adaptive/checkerboard (21 ALS subjects)",
-  "description": "This derivative dataset comprises EEG recordings from 21 ALS subjects participating in the BigP3BCI Study M, a P300-based brain-computer interface experiment using a 9x8 adaptive/checkerboard visual speller paradigm. The data were acquired at 256 Hz using 16-channel EEG montage and represent a subset of the largest public P300 BCI dataset containing recordings from approximately 267 subjects across 20 studies. This dataset is processed and organized according to BIDS standards for facilitating reproducible BCI research and benchmarking.",
-  "methods_description": "EEG data were acquired at a sampling rate of 256 Hz using 16 channels arranged in a standard 10-20 montage with g.USBamp hardware (g.tec). The experimental paradigm employed a P300-based visual speller with a 9x8 character grid using adaptive/checkerboard stimulus presentation. Each trial had a duration of 1.0 second, with target and non-target visual stimuli presented to elicit P300 event-related potentials. Data were recorded in a laboratory environment with online feedback provided to subjects.",
+  "description": "This dataset is a BIDS-formatted derivative of Study M from the bigP3BCI collection, a large open P300-based brain-computer interface resource. It contains 16-channel EEG recorded at 256 Hz from 21 participants using a 9x8 character speller grid with adaptive and checkerboard stimulus paradigms. Target and non-target events are annotated with HED tags, supporting machine-learning work on P300 speller classification.",
+  "methods_description": "EEG was recorded with a g.USBamp amplifier (g.tec) at 256 Hz from 16 channels placed according to the standard 10-20 montage. Participants used a P300 speller with a 9x8 character grid and received online feedback. Data were collected in a laboratory setting using a calibration-then-test scheme, with target and non-target flashes as events.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -25,28 +25,22 @@
       "term": "EEG"
     },
     {
-      "term": "brain-computer interface"
+      "term": "P300"
     },
     {
-      "term": "visual speller"
-    },
-    {
-      "term": "Event-Related Potentials, P300",
+      "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
       "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "Amyotrophic Lateral Sclerosis",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000690"
+      "term": "speller"
     },
     {
-      "term": "adaptive paradigm"
+      "term": "event-related potentials"
     },
     {
-      "term": "checkerboard stimulus"
+      "term": "visual perception"
     }
   ],
   "related_identifiers": [
@@ -82,7 +76,7 @@
     "eeg"
   ],
   "sizes": [
-    "2.5 GB (841 files)"
+    "2.37 GB (841 files)"
   ],
   "formats": [
     ".bdf",
